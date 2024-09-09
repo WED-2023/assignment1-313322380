@@ -1,13 +1,118 @@
-#menu
-{
-	position: fixed;
-	width: 100%;
-	height: 150px;
-	background: r  gb(90, 75, 186);
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    min-height: 100vh; /* Ensure full height for vertical centering */
 }
+
+#menu {
+    background-color: #34b40d;
+    color: rgb(244, 240, 16);
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center menu items */
+}
+
+#menu li {
+    margin: 0 15px;
+}
+
+#menu a {
+    color: rgb(181, 247, 27);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#menu a:hover {
+    background-color: #555;
+    color: #ddd;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+    max-width: 800px; /* Limit width for better readability */
+    width: 100%; /* Make it responsive */
+}
+
 h1 {
-	color: rgb(111, 123, 43); /* Sets the text color to blue */
-  }
-h2{
-	color: blueviolet;
+    background-color: #0a0606;
+    color: rgb(111, 123, 43);
+    margin: 0;
+}
+
+h2 {
+    color: #34b40d;
+}
+
+h3 {
+    color: rgb(111, 123, 43);
+}
+
+.section + .section {
+    margin-top: 20px;
+}
+
+body {
+    padding-top: 60px; /* Height of the menu */
+}
+#contact {
+    background-color: #f9f9f9;
+    padding: 12px;
+    border-radius: 2px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact h2 {
+    text-align: center;
+    color: #34b40d;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contact input, #contact textarea, #contact select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#contact input[type="submit"] {
+    background-color: #34b40d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #2a8f06;
 }
