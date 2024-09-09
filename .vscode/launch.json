@@ -4,13 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+
         
         {
             "type": "msedge",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\user\\assignment1-morbarz\\313322380.html"
+            "file": "c:\\Users\\user\\assignment1-morbarz\\index.html"
         }
     ]
 }
