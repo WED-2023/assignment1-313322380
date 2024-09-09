@@ -5,11 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         
+        
         {
             "type": "msedge",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\user\\assignment1-morbarz\\index.html"
+            "file": "c:\\Users\\user\\assignment1-morbarz\\313322380.html"
         }
     ]
 }
